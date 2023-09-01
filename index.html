@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Simple Tailwind Starter</title>
-</head>
-<body>
-    <h1 class="text-red-500" >hello</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@400;500;600&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@300&family=Poppins:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Testimonial Grid</title>
+  </head>
+  <body class="bg-gray-200">
+    <!-- Global Container -->
+    <div class="container mx-auto max-w-7xl p-2 md:p-10">
+      <!-- Grid Container -->
+      <div class="text-white">
+        <!-- Box -->
+
+        <div
+          class="relative flex flex-col space-y-6 rounded-xl p-10 bg-purple-700"
+        >
+          <div class="flex items-center space-x-4">
+            <div
+              class="flex justify-center items-center rounded-full w-10 h-10 border-white border-2"
+            >
+              <img
+                src="./images/image-daniel.jpg"
+                alt=""
+                class="rounded-full"
+              />
+            </div>
+            <div class="flex flex-col">
+              <span class="text-sm opacity-90">Daniel Clifford</span>
+              <span class="text-sm opacity-50">Verified Graduate</span>
+            </div>
+          </div>
+
+          <p class="text-left text-xl z-10">
+            I received a job offer mid-course, and the subjects I learned were
+            current, if not more so, in the company I joined. I honestly feel I
+            got every penny's worth.
+          </p>
+          <p class="opacity-50">
+            "I was an EMT for many years before I joined the bootcamp. I've been
+            looking to make a transition and have heard some people who had an
+            amazing experience here. I signed up for the free intro course and
+            found it incredibly fun! I enrolled shortly thereafter. The next 12
+            weeks was the best - and most grueling - time of my life. Since
+            completing the course, I've successfully
+          </p>
+          <img
+            src="./images/bg-pattern-quotation.svg"
+            alt=""
+            class="absolute -top-2 right-10 scale-125 md:top-7 md:right-24 md:scale-150"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
